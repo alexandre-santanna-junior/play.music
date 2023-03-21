@@ -1,0 +1,245 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient( to top, #181815, #53534b);
+    color: white;
+    padding-top: 100px;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+.list{
+    text-align: center;
+    font-size: 16px;
+    margin-top: 40px;
+}
+
+.capa{
+    height: 400px;
+    width: 400px;
+    margin-top: 80px;
+    border: 4px solid white;
+    display: flex;
+    flex-direction: row;
+    
+}
+.info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+.favorito{
+    color: #9eaab1d3;
+    padding-bottom: 12px;
+    
+}
+.musica{
+    font-size: 22px;
+    font-weight: bold;
+}
+.banda{
+    font-size: 15px;
+    font-weight: lighter;
+    margin-bottom: 5px;
+    color: #9eaab1d3;
+}
+.barra{
+    background-color: #9eaab1d3;
+    height: 2.5px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+.reproduçao{
+    --reproduçao: 0%;
+    background-color: #fafafa;
+    height: 2.5px;
+    width: var(--reproduçao);
+    border-radius: 20px;
+    margin-bottom: 20px;
+
+}
+button{
+    background-color: inherit;
+    color: inherit;
+    border: none;
+}
+
+.botoes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.anterior{
+    font-size: 2.5em;
+}
+.proximo{
+    font-size: 2.5em;
+}
+.play{
+    font-size: 3em;
+}
+.anterior:hover{
+    cursor: pointer;
+}
+.proximo:hover{
+    cursor: pointer;
+}
+.play:hover{
+    cursor: pointer;
+}
+.repetir:hover{
+    cursor: pointer;
+}
+.aleatorio:hover{
+    cursor: pointer;
+}
+.favorito:hover{
+    cursor: pointer;
+    color: rgba(128, 255, 0, 0.678);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient( to top, #181815, #53534b);
+    color: white;
+    padding-top: 80px;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;  
+}
+.list{
+    text-align: center;
+    font-size: 16px;
+}
+
+.capa{
+    height: 400px;
+    width: 400px;
+    margin-top: 60px;
+    border: 4px solid white;
+    display: flex;
+    flex-direction: row;
+    
+}
+.info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+.favorito{
+    color: #9eaab1d3;
+    padding-bottom: 12px;
+    
+}
+.musica{
+    font-size: 22px;
+    font-weight: bold;
+}
+.banda{
+    font-size: 15px;
+    font-weight: lighter;
+    margin-bottom: 5px;
+    color: #9eaab1d3;
+}
+.barra{
+    background-color: #9eaab1d3;
+    height: 2.5px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+.reproduçao{
+    --reproduçao: 0%;
+    background-color: #fafafa;
+    height: 2.5px;
+    width: var(--reproduçao);
+    border-radius: 20px;
+    margin-bottom: 20px;
+
+}
+button{
+    background-color: inherit;
+    color: inherit;
+    border: none;
+}
+
+.botoes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.anterior{
+    font-size: 2.5em;
+}
+.proximo{
+    font-size: 2.5em;
+}
+.play{
+    font-size: 3em;
+}
+.anterior:hover{
+    cursor: pointer;
+}
+.proximo:hover{
+    cursor: pointer;
+}
+.play:hover{
+    cursor: pointer;
+}
+.repetir:hover{
+    cursor: pointer;
+}
+.aleatorio:hover{
+    cursor: pointer;
+}
+.favorito:hover{
+    cursor: pointer;
+    color: rgba(128, 255, 0, 0.678);
+    
+}
+@media (max-width: 768px) {
+    .capa{
+        height: 300px;
+        width: 300px;
+    }
+
+    .botoes{ 
+        display: flex;
+        align-items: center;
+    }
+    .anterior, .proximo, .play{
+        font-size: 2em;
+        margin-top: 20px;
+    }
+    }
+
+    @media (max-width: 480px) {
+    .info{
+        display: flex
+        flex-direction: row;
+    }
+    .info.1{
+        font-size: 5px;
+    }
+    .musica{
+        font-family: sans-serif;
+    }
+}
